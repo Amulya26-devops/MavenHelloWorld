@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: mypool
+  vmImage: 'mypool'
 
 steps:
 - task: Maven@3
